@@ -2,14 +2,14 @@
 <package>
   <name>ros_imu_server</name>  <!-- Change by the name of your package  -->
   <version>0.0.1</version>
-  <description>
+  <description> ROS server for IMU data transmitted through socket
   </description> <!-- Change the autor data  -->
-  <maintainer email="">
+  <maintainer email="alessandro.carfi@dibris.unige.it">
   </maintainer>
     <license>BSD</license>
   <url type="repository">
   </url>
-  <author> </author>
+  <author>alessandro carfì</author>
   <!-- The *_depend tags are used to specify dependencies -->
   <!-- Dependencies can be catkin packages or system dependencies -->
   <buildtool_depend>catkin</buildtool_depend>
