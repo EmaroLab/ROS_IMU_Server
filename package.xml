@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>ROS_IMU_Server</name>  <!-- Change by the name of your package  -->
+  <name>ros_imu_server</name>  <!-- Change by the name of your package  -->
   <version>0.0.1</version>
   <description>
   </description> <!-- Change the autor data  -->
