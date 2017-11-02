@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(ROS_IMU_Server)
+
+find_package(catkin REQUIRED COMPONENTS message_generation
+  rospy
+  roscpp
+  actionlib
+)
+
+catkin_package(
+  CATKIN_DEPENDS
+  rospy
+  roscpp
+)
+
+include_directories(
+  ${catkin_INCLUDE_DIRS}
+)
+
+#catkin_python_setup()
+
+
